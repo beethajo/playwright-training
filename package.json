@@ -1,0 +1,26 @@
+{
+  "name": "multi-projects",
+  "private": true,
+  "workspaces": [
+    "packages/BDD-Cucumber",
+    "packages/Basic-E2E-Tests",
+    "packages/Fixtures",
+    "packages/JavaScript-Concepts",
+    "packages/Playwright-BDD",
+    "packages/playwright-concepts",
+    "packages/POM-(Page-Object-Model)",
+    "packages/POM-Parabank",
+    "packages/Sample"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "playwright-bdd": "^8.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@faker-js/faker": "^9.9.0"
+  }
+}
